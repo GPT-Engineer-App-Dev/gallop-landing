@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 function Index() {
   return (
     <div className="text-center">
