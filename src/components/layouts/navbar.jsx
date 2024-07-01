@@ -1,4 +1,4 @@
-import { CircleUser, Menu, Horse } from "lucide-react"
+import { CircleUser, Menu, HorseHead } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import {
@@ -21,7 +21,7 @@ function SharedLayout() {
             href="#"
             className="flex items-center gap-2 text-lg font-semibold md:text-base"
           >
-            <Horse className="h-6 w-6" />
+            <HorseHead className="h-6 w-6" />
             <span className="sr-only">Horse Haven</span>
           </a>
           <a
@@ -48,7 +48,7 @@ function SharedLayout() {
                 href="#"
                 className="flex items-center gap-2 text-lg font-semibold"
               >
-                <Horse className="h-6 w-6" />
+                <HorseHead className="h-6 w-6" />
                 <span className="sr-only">Horse Haven</span>
               </a>
               <a
