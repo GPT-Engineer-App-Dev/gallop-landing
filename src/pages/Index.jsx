@@ -1,10 +1,9 @@
 function Index() {
   return (
-    <div>
-      <h1 className="text-3xl text-center">Your Blank Canvas</h1>
-      <p className="text-center">
-        Chat with the agent to start making edits.
-      </p>
+    <div className="text-center">
+      <h1 className="text-4xl font-bold mb-4">Welcome to Horse Haven</h1>
+      <p className="text-lg mb-6">Your ultimate destination for everything about horses.</p>
+      <Button variant="primary" size="lg">Get Started</Button>
     </div>
   );
 }
